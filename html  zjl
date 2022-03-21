@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<head>
+    <h2> Planets data</h2>
+    <form action=""><input type="text" name="" value="Search query"</form>
+    <button type="button" onclick="alert('')">Go!</button>
+    <table style="width:100%">
+        <caption>Data about the planets of our solar system(Planetary facts taken from <a href="url">Nasa's Planetary Fact Sheet-Metric).</a></caption>
+     </table>
+</head>
+<body>
+    <style>table,th,td{
+        border:1px solid black;
+        border: spacing 5px;
+     } </style>
+     <table style="width:100%">
+     <tr>
+         <th>        </th>
+         <th>Name</th>
+         <th>Mass(10^24kg)</th>
+         <th>Diameter(km)</th>
+         <th>Density(kg/m^3)</th>
+         <th>Gravity(m/s^2)</th>
+         <th>Length of day(hours)</th>
+         <th>Distance from Sun(10^6km)</th>
+         <th>Mean temperature(℃)</th>
+         <th>Number of moons</th>
+         <th>Notes</th>
+     </tr>
+     <tr>
+         <th rowspan="4">Terrestial planets</th>
+         <td>Mercury</td>
+         <td>0.330</td>
+         <td>4,879</td>
+         <td>5427</td>
+         <td>3.7</td>
+         <td>4222.6</td>
+         <td>57.9</td>
+         <td>167</td>
+         <td>0</td>
+         <td>Closest to the Sun</td>
+         </tr>
+         <tr>
+             <td>Venus</td>
+             <td>4.87</td>
+             <td>12,104</td>
+             <td>5243</td>
+             <td>8.9</td>
+             <td>2802.0</td>
+             <td>108.2</td>
+             <td>464</td>
+             <td>0</td>
+             <td> </td>
+         </tr>
+         <tr>
+             <td>Earth</td>
+             <td>5.97</td>
+             <td>12,756</td>
+             <td>5514</td>
+             <td>9.8</td>
+             <td>24.0</td>
+             <td>149.6</td>
+             <td>15</td>
+             <td>1</td>
+             <td>Our World</td>
+         </tr>
+         <tr>
+             <td>Mars</td>
+             <td>0.642</td>
+             <td>6,792</td>
+             <td>3933</td>
+             <td>3.7</td>
+             <td>24.7</td>
+             <td>227.9</td>
+             <td>-65</td>
+             <td>2</td>
+             <td>The red planet</td>
+         </tr>
+         <tr>
+            <th rowspan="2">Jovian planets;</th>
+            <td>Gas giants</td>
+            <td>1989</td>
+            <td>142985</td>
+            <td>5454</td>
+            <td>5454</td>
+            <td>989</td>
+            <td>778.6</td>
+            <td>-110</td>
+            <td>67</td>
+            <td> </td>
+            </tr>
+        <tr>
+            <td>Ice giants</td>
+            <td>52</td>
+            <td>569</td>
+            <td>963</td>
+            <td>10.7</td>
+            <td>895</td>
+            <td>4122</td>
+            <td>-152</td>
+            <td>856</td>
+            <td> </td>
+        </tr>
+       <tr>
+           <td>Dwarf planets</td>
+           <td>Pluto</td>
+           <td>0.0156</td>
+           <td>2378</td>
+           <td>0.25</td>
+           <td>153.3</td>
+           <td>5963.0</td>
+           <td>-225</td>
+           <td>5</td>
+           <td>89</td>
+           <td>Declassified as a planet in 2006,but this <a href="url">remain controversial.</a></td>
+       </tr>
+    </table>
+    
+</body>
