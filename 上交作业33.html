@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            text-align: center;
+            font-size: larger;
+        }
+        span{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <button onclick="timeGoes();">计时开始</button><br>
+        <button onclick="timeStop();">停止计时</button>
+    </div>
+    
+    <div id="div1">
+
+    </div>
+
+    <script>
+        function timeGoes(){
+            var i = 0;
+            myTime = setInterval(newTime, 1000);
+            function newTime(){
+                
+                var j = i++;
+                document.getElementById("div1").innerHTML = "Time passed: " + "<span>" + j + "</span>" + " s";
+
+            }
+
+        }
+
+    function timeStop(){
+        clearInterval(myTime);
+    };
+    </script>
+</body>
+</html>
